@@ -17,7 +17,7 @@ import {
   
   
   const formEl = document.querySelector('.search-form');
-  const ulEl = document.querySelector('');
+  const ulEl = document.querySelector('.gallery');
   const loader = document.querySelector('.loader');
   const gallery = new SimpleLightbox('.gallery a');
   
