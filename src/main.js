@@ -19,7 +19,7 @@ import {
   const formEl = document.querySelector('.search-form');
   const ulEl = document.querySelector('.gallery');
   const loader = document.querySelector('.loader');
-  
+  const gallery = new SimpleLightbox('.gallery a');
   
   
   formEl.addEventListener('submit', event => {
@@ -53,7 +53,7 @@ import {
   
             ulEl.innerHTML = markup;
   
-            const gallery = new SimpleLightbox('.gallery a');
+            
             gallery.refresh();
           }
         })
