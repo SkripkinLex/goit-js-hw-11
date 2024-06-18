@@ -25,6 +25,7 @@ import {
   
   formEl.addEventListener('submit', event => {
     event.preventDefault();
+    ulEl.innerHTML = "";
     
     const query = event.target.elements.query.value.trim();
     
